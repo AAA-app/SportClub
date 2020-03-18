@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/firstName_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="first name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/lastName_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="last name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/sport_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sport name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/gender_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</LinearLayout>
